@@ -1,0 +1,125 @@
+update_field frontend m3_gtre46 UnlockedAt 15
+update_field frontend m3_gtre46 IsCustomizable false
+
+update_field brakes bmwm3gtre46 BRAKES Front 475
+update_field brakes bmwm3gtre46 BRAKES Rear 600
+update_field brakes bmwm3gtre46 EBRAKE 925
+
+update_field chassis bmwm3gtre46 DRAG_COEFFICIENT 0.32
+update_field chassis bmwm3gtre46 AERO_COEFFICIENT 0.3
+
+update_field engine bmwm3gtre46 FLYWHEEL_MASS 10
+update_field engine bmwm3gtre46 MAX_RPM 9500
+update_field engine bmwm3gtre46 RED_LINE 8500
+
+update_field engine bmwm3gtre46 TORQUE[0] 170
+update_field engine bmwm3gtre46 TORQUE[1] 251
+update_field engine bmwm3gtre46 TORQUE[2] 340
+update_field engine bmwm3gtre46 TORQUE[3] 428
+update_field engine bmwm3gtre46 TORQUE[4] 467
+update_field engine bmwm3gtre46 TORQUE[5] 452
+update_field engine bmwm3gtre46 TORQUE[6] 411
+update_field engine bmwm3gtre46 TORQUE[7] 375
+update_field engine bmwm3gtre46 TORQUE[8] 350
+
+update_field transmission bmwm3gtre46 FINAL_GEAR 3.4
+update_field transmission bmwm3gtre46 GEAR_RATIO[0] 3.2
+update_field transmission bmwm3gtre46 GEAR_RATIO[1] 0
+update_field transmission bmwm3gtre46 GEAR_RATIO[2] 4.1
+update_field transmission bmwm3gtre46 GEAR_RATIO[3] 2.53
+update_field transmission bmwm3gtre46 GEAR_RATIO[4] 1.67
+update_field transmission bmwm3gtre46 GEAR_RATIO[5] 1.23
+update_field transmission bmwm3gtre46 GEAR_RATIO[6] 1
+update_field transmission bmwm3gtre46 GEAR_RATIO[7] 0.83
+update_field transmission bmwm3gtre46 GEAR_RATIO[8] 0
+update_field transmission bmwm3gtre46 TORQUE_CONVERTER 0.3
+update_field transmission bmwm3gtre46 TORQUE_SPLIT 0
+update_field transmission bmwm3gtre46 SHIFT_SPEED 0.25
+update_field transmission bmwm3gtre46 CLUTCH_SLIP 0.8
+
+update_field tires bmwm3gtre46 DYNAMIC_GRIP Front 2
+update_field tires bmwm3gtre46 DYNAMIC_GRIP Rear 2
+update_field tires bmwm3gtre46 STATIC_GRIP Front 2.2
+update_field tires bmwm3gtre46 STATIC_GRIP Rear 2.3
+
+update_field pvehicle bmwm3gtre46 MASS 1300
+update_field pvehicle bmwm3gtre46 HandlingRating[0] 75
+update_field pvehicle bmwm3gtre46 nos[0] Collection nos_base
+update_field pvehicle bmwm3gtre46 nos[1] Collection nos_top
+
+update_field pvehicle m3gtre46careerstart MASS 1300
+update_field pvehicle m3gtre46careerstart HandlingRating[0] 75
+update_field pvehicle m3gtre46careerstart nos[0] Collection nos_base
+update_field pvehicle m3gtre46careerstart nos[1] Collection nos_top
+
+copy_fields brakes bmwm3gtre46 m3gtre46careerstart base
+copy_fields chassis bmwm3gtre46 m3gtre46careerstart base
+copy_fields engine bmwm3gtre46 m3gtre46careerstart base
+copy_fields induction bmwm3gtre46 m3gtre46careerstart base
+copy_fields transmission bmwm3gtre46 m3gtre46careerstart base
+copy_fields tires bmwm3gtre46 m3gtre46careerstart base
+
+update_field brakes m3gtre46careerstart EBRAKE 650
+
+update_field chassis m3gtre46careerstart AERO_CG 47.5
+update_field chassis m3gtre46careerstart AERO_COEFFICIENT 0.24
+update_field chassis m3gtre46careerstart DRAG_COEFFICIENT 0.3
+update_field chassis m3gtre46careerstart FRONT_AXLE 1.5
+update_field chassis m3gtre46careerstart FRONT_WEIGHT_BIAS 52
+update_field chassis m3gtre46careerstart RIDE_HEIGHT Front 7.25
+update_field chassis m3gtre46careerstart RIDE_HEIGHT Rear 7.51
+update_field chassis m3gtre46careerstart SHOCK_DIGRESSION Front 0.3
+update_field chassis m3gtre46careerstart SHOCK_DIGRESSION Rear 0.3
+update_field chassis m3gtre46careerstart SHOCK_EXT_STIFFNESS Front 65
+update_field chassis m3gtre46careerstart SHOCK_EXT_STIFFNESS Rear 65
+update_field chassis m3gtre46careerstart SHOCK_STIFFNESS Front 60
+update_field chassis m3gtre46careerstart SHOCK_STIFFNESS Rear 60
+update_field chassis m3gtre46careerstart SPRING_PROGRESSION Front 6
+update_field chassis m3gtre46careerstart SPRING_PROGRESSION Rear 6
+update_field chassis m3gtre46careerstart SPRING_STIFFNESS Front 450
+update_field chassis m3gtre46careerstart SPRING_STIFFNESS Rear 400
+update_field chassis m3gtre46careerstart SWAYBAR_STIFFNESS Front 330
+update_field chassis m3gtre46careerstart SPRING_STIFFNESS Rear 350
+update_field chassis m3gtre46careerstart TRAVEL Front 6.5
+update_field chassis m3gtre46careerstart TRAVEL Rear 6.5
+update_field chassis m3gtre46careerstart WHEEL_BASE 2.725
+
+update_field engine m3gtre46careerstart ENGINE_BRAKING[0] 0.9
+update_field engine m3gtre46careerstart ENGINE_BRAKING[1] 0.9
+update_field engine m3gtre46careerstart ENGINE_BRAKING[2] 0.9
+
+update_field engine m3gtre46careerstart TORQUE[0] 87
+update_field engine m3gtre46careerstart TORQUE[1] 128
+update_field engine m3gtre46careerstart TORQUE[2] 174
+update_field engine m3gtre46careerstart TORQUE[3] 219
+update_field engine m3gtre46careerstart TORQUE[4] 239
+update_field engine m3gtre46careerstart TORQUE[5] 231
+update_field engine m3gtre46careerstart TORQUE[6] 210
+update_field engine m3gtre46careerstart TORQUE[7] 192
+update_field engine m3gtre46careerstart TORQUE[8] 179
+
+update_field transmission m3gtre46careerstart FINAL_GEAR 3.62
+update_field transmission m3gtre46careerstart GEAR_RATIO[0] 3.79
+update_field transmission m3gtre46careerstart GEAR_RATIO[2] 4.23
+update_field transmission m3gtre46careerstart TORQUE_CONVERTER 1.5
+update_field transmission m3gtre46careerstart OPTIMAL_SHIFT 800
+
+update_field tires m3gtre46careerstart DYNAMIC_GRIP Front 1.8
+update_field tires m3gtre46careerstart DYNAMIC_GRIP Rear 1.8
+update_field tires m3gtre46careerstart GRIP_SCALE Front 1.15
+update_field tires m3gtre46careerstart GRIP_SCALE Rear 1.2
+update_field tires m3gtre46careerstart STATIC_GRIP Front 2
+update_field tires m3gtre46careerstart STATIC_GRIP Rear 2
+update_field tires m3gtre46careerstart STEERING 1.11
+update_field tires m3gtre46careerstart YAW_CONTROL[0] 0.1
+update_field tires m3gtre46careerstart YAW_CONTROL[1] 0.35
+update_field tires m3gtre46careerstart YAW_CONTROL[2] 0.4
+update_field tires m3gtre46careerstart YAW_CONTROL[3] 0.6
+update_field tires m3gtre46careerstart YAW_SPEED 0.26
+
+delete_field pvehicle m3gtre46careerstart engineaudio
+
+delete_field pvehicle m3gtre46careerstart induction
+add_field pvehicle m3gtre46careerstart induction 1
+update_field pvehicle m3gtre46careerstart induction[0] Class induction
+update_field pvehicle m3gtre46careerstart induction[0] Collection default

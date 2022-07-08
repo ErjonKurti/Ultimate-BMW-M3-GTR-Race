@@ -1,0 +1,118 @@
+game MW
+
+ui_text PUSH YOURSELF TO THE LIMIT OF HUMAN REACTION SPEED
+ui_text
+ui_text this mod makes both the 'BMW M3 GTR (Race) car' and the 'BMW M3 GTR (Race) career start car` a beast
+ui_text
+ui_text the BMW M3 GTR includes near-infinite NOS just to make it even beastier (not that you will need it)
+ui_text
+ui_text the BMW M3 GTR comes with 7 performance profiles:
+ui_text
+ui_control radiobutton setup_rbutton optionU "Uninstall VLT Data (performance: STOCK)"
+ui_option setup_rbutton optionU
+script stock
+ui_option setup_rbutton optionU
+
+ui_control radiobutton setup_rbutton option1 "Install VLT Data (performance: RACE)"
+ui_option setup_rbutton option1
+script stock
+script race
+ui_option setup_rbutton option1
+
+ui_control radiobutton setup_rbutton option2 "Install VLT Data (performance: PRO)"
+ui_option setup_rbutton option2
+script stock
+script pro
+ui_option setup_rbutton option2
+
+ui_control radiobutton setup_rbutton option3 "Install VLT Data (performance: ULTIMATE)"
+ui_option setup_rbutton option3
+script stock
+script ultimate
+ui_option setup_rbutton option3
+
+ui_control radiobutton setup_rbutton option4 "Install VLT Data (performance: JUNKMAN)"
+ui_option setup_rbutton option4
+script stock
+script junkman
+ui_option setup_rbutton option4
+
+ui_control radiobutton setup_rbutton option5 "Install VLT Data (performance: TOMAHAWK X - recommended gamespeed 0.375)"
+ui_option setup_rbutton option5
+script stock
+script X
+ui_option setup_rbutton option5
+
+ui_control radiobutton setup_rbutton option6 "Install VLT Data (performance: TOMAHAWK X2 - recommended gamespeed 0.175)"
+ui_option setup_rbutton option6
+script stock
+script X2
+ui_option setup_rbutton option6
+
+ui_text
+ui_text 1. STOCK:
+ui_text top speed 280kmh to 330 kmh
+ui_text easy 230 kmh+
+ui_text decent handling
+ui_text decent acceleration
+ui_text standard nos
+ui_text
+ui_text 2. RACE:
+ui_text top speed 380kmh to 400 kmh
+ui_text easy 340 kmh+
+ui_text good handling
+ui_text good acceleration
+ui_text near-infinite nos
+ui_text
+ui_text 3. PRO:
+ui_text top speed 400kmh to 440 kmh
+ui_text easy 370 kmh+
+ui_text very good handling
+ui_text very good acceleration
+ui_text near-infinite nos
+ui_text
+ui_text 4. ULTIMATE:
+ui_text top speed 440kmh to 470 kmh
+ui_text easy 400 kmh+
+ui_text very good handling
+ui_text very good acceleration
+ui_text near-infinite nos
+ui_text
+ui_text 5. JUNKMAN:
+ui_text top speed 500kmh to 548 kmh
+ui_text easy 440 kmh+
+ui_text excellent handling
+ui_text excellent acceleration
+ui_text near-infinite nos
+ui_text
+ui_text 6. TOMAHAWK X:
+ui_text top speed 660kmh to 780 kmh (823 kmh with nos)
+ui_text easy 600 kmh+
+ui_text amazing handling
+ui_text amazing acceleration
+ui_text near-infinite nos
+ui_text NOTE: use game speed 0.375 or use AI
+ui_text
+ui_text 7. TOMAHAWK X2:
+ui_text top speed 980kmh to 1180+ kmh (1300+ kmh with nos)
+ui_text easy 900 kmh+
+ui_text less amazing-ish handling
+ui_text super acceleration
+ui_text near-infinite nos
+ui_text NOTE: use game speed 0.175 or use AI
+ui_text
+ui_text the 'BMW M3 GTR (Race) career start car' is now equal to the 'BMW M3 GTR (Race) car' in every way
+ui_text the 'BMW M3 GTR (Race) career start car' is the car you drive in the prologue (career intro)
+ui_text
+ui_text the 'BMW M3 GTR (Race) car' is the car you get when you beat razor, and it is the car razor drives
+ui_text
+ui_text so now when they say "razor rocketed to the top of the blacklist using your car" they literally mean it!
+ui_text
+ui_text
+ui_text NOTE: to be imported with latest VLTed: https://nfs-tools.blogspot.com/2019/02/nfs-vlted-v46-released.html
+ui_text
+ui_text
+ui_text https://nfs-tools.blogspot.com/2018/02/nfs-vlted-usage-2-modscript-format.html
+ui_text
+ui_text the modscript format '.nfsms' does not have any way to check for existance of nodes
+ui_text please ignore "The node 'm3gtre46careerstart' does not contain 'engineaudio' field."
