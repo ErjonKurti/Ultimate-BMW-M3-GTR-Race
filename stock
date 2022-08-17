@@ -1,3 +1,5 @@
+update_field frontend m3_gtr UnlockedAt 15
+update_field frontend m3_gtr IsCustomizable false
 update_field frontend m3_gtre46 UnlockedAt 15
 update_field frontend m3_gtre46 IsCustomizable false
 
@@ -46,6 +48,9 @@ update_field pvehicle bmwm3gtre46 MASS 1300
 update_field pvehicle bmwm3gtre46 HandlingRating[0] 75
 update_field pvehicle bmwm3gtre46 nos[0] Collection nos_base
 update_field pvehicle bmwm3gtre46 nos[1] Collection nos_top
+update_field nos cops NOS_CAPACITY 999
+update_field nos cops FLOW_RATE 999
+update_field nos cops TORQUE_BOOST 2
 
 update_field pvehicle m3gtre46careerstart MASS 1300
 update_field pvehicle m3gtre46careerstart HandlingRating[0] 75
